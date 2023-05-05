@@ -10,7 +10,7 @@ body {
   text-align: center;
   font-style: italic;
   font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 3.5vw;
+  font-size: 3vw;
   font-weight: 900;
   line-height: 6vw;
   text-transform: uppercase;
@@ -38,7 +38,8 @@ body {
 }
 .quote_Text{
   color: #fff;
-  font-size: 2vw;
+   font-size: 2vw; 
+  
   font-family: 'Work Sans', sans-serif;
   font-weight: 900;
   font-style: italic;
@@ -47,8 +48,10 @@ body {
 .quotes_aurthor{
   margin-top: 20px;
   color: #f5680a;
-  margin-left:250px;
-  font-size: 1.5vw;
+  /* margin-left:250px; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
   text-decoration: dotted;
@@ -85,7 +88,7 @@ color: #fff;
   background-color: #d7d6e9  
   
 }
-.jokes_container{
+.jokes_txt{
   color: #110e0e;
   font-size: 2vw;
   font-family: 'Work Sans', sans-serif;
@@ -112,4 +115,15 @@ margin-bottom: 50px;
 }
 .Quotes_btn:hover{
   opacity: 50%;
+}
+@media all and (max-width:600px){
+  .Animated_txt{
+      font-size: 20px;
+  }
+  .quote_Text{
+    font-size: 18px;
+  }
+  .jokes_txt{
+    font-size: 18px;
+  }
 }

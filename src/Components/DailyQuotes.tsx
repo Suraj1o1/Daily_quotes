@@ -60,7 +60,7 @@ const nextQuotes=()=>{
          </div>
 
       <div className='Joke_container'>
-            <div className='jokes_container'>"{jokes.joke}"</div>
+            <div className='jokes_txt'>"{jokes.joke}"</div>
       </div>
       
       <div><Button classname='jokes_btn' onclick={getJokes} Title="Next Joke" />
