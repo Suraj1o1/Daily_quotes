@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Daily_quotes/static/css/main.c3c26451.css",
+    "main.css": "/Daily_quotes/static/css/main.9ad04fe9.css",
     "main.js": "/Daily_quotes/static/js/main.f4e77d71.js",
     "static/js/787.b59bddf7.chunk.js": "/Daily_quotes/static/js/787.b59bddf7.chunk.js",
     "static/media/animegirl.png": "/Daily_quotes/static/media/animegirl.b6e8b67ac81c6fb49ed3.png",
     "static/media/laughing.gif": "/Daily_quotes/static/media/laughing.4e2fe1396e21255d7a00.gif",
     "index.html": "/Daily_quotes/index.html",
-    "main.c3c26451.css.map": "/Daily_quotes/static/css/main.c3c26451.css.map",
+    "main.9ad04fe9.css.map": "/Daily_quotes/static/css/main.9ad04fe9.css.map",
     "main.f4e77d71.js.map": "/Daily_quotes/static/js/main.f4e77d71.js.map",
     "787.b59bddf7.chunk.js.map": "/Daily_quotes/static/js/787.b59bddf7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3c26451.css",
+    "static/css/main.9ad04fe9.css",
     "static/js/main.f4e77d71.js"
   ]
 }
