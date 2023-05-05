@@ -1,13 +1,116 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ .Animated_txt{
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 3.5vw;
+  font-weight: 900;
+  line-height: 6vw;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+.Quotes_container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+ 
+  margin-left: 200px;
+  margin-right: 150px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+ 
+ 
+  opacity: 80%;
+  background-color:  
+  #041111
+}
+.quote_Text{
+  color: #fff;
+  font-size: 2vw;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.quotes_aurthor{
+  margin-top: 20px;
+  color: #f5680a;
+  margin-left:250px;
+  font-size: 1.5vw;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  text-decoration: dotted;
+ 
+}
+.Quotes_btn{
+  margin-top: 50px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  cursor: pointer;
+ 
+  background: #103036;
+box-shadow: 0px 2px 5px rgba(68, 68, 68, 0.25);
+border-radius: 24px;
+color: #fff;
+}
+.Joke_container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+ 
+  margin-left: 200px;
+  margin-right: 150px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+ 
+ 
+  opacity: 90%;
+  background-color: #d7d6e9  
+  
+}
+.jokes_container{
+  color: #110e0e;
+  font-size: 2vw;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  
+}
+.jokes_btn{
+  margin-top: 50px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  cursor: pointer;
+ 
+  background: #966d6d;
+box-shadow: 0px 2px 5px rgba(68, 68, 68, 0.25);
+border-radius: 24px;
+color: #160909;
+margin-bottom: 50px;
+}
+.jokes_btn:hover{
+  opacity: 50%;
+}
+.Quotes_btn:hover{
+  opacity: 50%;
 }
