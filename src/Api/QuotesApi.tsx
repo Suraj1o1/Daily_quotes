@@ -83,7 +83,7 @@ export default function QuotesApi() {
           "id": 16
         },
         {
-            "quoteText":"Don\'t ruin the present with the ruined past.",
+            "quoteText":"Don't ruin the present with the ruined past.",
             "quoteAuthor": "Ellen Gilchrist",
             "id":17
         },
